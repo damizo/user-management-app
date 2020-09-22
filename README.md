@@ -19,3 +19,6 @@ Best sequence of endpoints invocation to verify API:
 ##### 3. GET /api/v1/employees/{id}
 ##### 4. GET /api/v1/employees?yourParams
 ##### 5. DELETE /api/v1/employees/{id}
+
+## Comments
+For readability purposes I've changed type of 'grade' column to enum
