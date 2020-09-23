@@ -5,6 +5,10 @@ In root folder:
     mvn clean install
 
     java -jar target/demo-0.0.1-SNAPSHOT.jar
+  
+or option without database initialization:  
+    
+    java -Dspring.profiles.active=none -jar target/demo-0.0.1-SNAPSHOT.jar
 
 ## Profiles
 Profile ***init-db*** is responsible for loading few employees into database (set by default)
